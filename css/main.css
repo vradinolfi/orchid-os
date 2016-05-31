@@ -1,0 +1,59 @@
+/* line 1, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+html {
+  background: url("../img/bg.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Varela Round', sans-serif; }
+
+/* line 12, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+/* line 19, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+.window {
+  height: 400px;
+  width: 600px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.65); }
+
+/* line 27, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+.window--chrome {
+  height: 32px;
+  width: 100%;
+  color: white;
+  background: black;
+  cursor: move; }
+
+/* line 35, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+.window--login {
+  text-align: center; }
+  /* line 38, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+  .window--login input {
+    padding: 15px;
+    width: 75%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px; }
+    /* line 44, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+    .window--login input:last-child {
+      margin-top: 15px; }
+
+/* line 50, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+.avatar {
+  border-radius: 100%; }
+
+/* line 54, /Users/vincentadinolfi/Documents/electron-test/css/main.scss */
+.start-centered {
+  transform: translate3d(-50%, -50%, 0);
+  top: 50%;
+  position: relative;
+  left: 50%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Orchid OS</title>
+        
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        
+        <link rel="stylesheet" href="./css/main.css" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        
+        <script>
+        $(document).ready(function() {
+           
+            $(function() {
+                $( ".draggable" ).draggable({
+                    handle: ".window--chrome",
+                    containment: "html"
+                });
+            });
+            
+        }); 
+        </script>
+        
+        <script>if (window.module) module = window.module;</script>
+        
+    </head>
+    <body>
+        
+        <!--
+        <div class="window draggable start-centered">
+            <div class="window--chrome"></div>
+        </div>
+        -->
+        
+        <!-- Login -->
+        <div class="window window--login start-centered">
+        
+            <img class="avatar" src="http://placehold.it/150x150">
+            
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+            </form>
+            
+            <div class="hint"><a href="#">Need a hint?</a></div>
+            
+        </div>
+        
+        
+    </body>
+</html>
